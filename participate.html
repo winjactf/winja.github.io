@@ -13,11 +13,13 @@
   <script type="text/javascript" src="js/index.js"></script>
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
   <style>
     html,
     body {
-      margin: 0;
-      padding: 0;
+      margin: 0px;
       height: 100%;
     }
   </style>
@@ -31,8 +33,9 @@
       <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red"
         href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
       <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-hover-white">Home</a>
-      <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-white">Upcoming Event</a>
-      <a href="participate.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">How to
+      <a href="upcoming.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Upcoming
+        Event</a>
+      <a href="participate.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-white">How to
         participate?</a>
       <!-- <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Blog</a> -->
       <!-- <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Link 3</a>
@@ -42,22 +45,74 @@
     <!-- Navbar on small screens -->
     <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
       <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-hover-white">Home</a>
-      <a href="#" class="w3-bar-item w3-button w3-padding-large w3-white">Upcoming Event</a>
-      <a href="participate.html" class="w3-bar-item w3-button w3-padding-large w3-hover-white">How to participate?</a>
+      <a href="upcoming.html" class="w3-bar-item w3-button w3-padding-large w3-hover-white">Upcoming Event</a>
+      <a href="participate.html" class="w3-bar-item w3-button w3-padding-large w3-white">How to participate?</a>
       <!-- <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 3</a>
     <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 4</a> -->
     </div>
   </div>
 
   <!-- Header -->
-  <header class="w3-container w3-red w3-center" style="padding: 30px ">
+  <header class="w3-container w3-red w3-center" style="padding: 80px 0 50px 0">
+    <h2>Winja Blogs</h2>
+    <p>Last date for blog submission has been extended till <strong>31 August 2020</strong>.</p>
   </header>
 
   <div class="box">
-    <div class="container">
-      <img src="img/winjablogs-05september2020.jpg" alt="Winja Logo" />
+    <div class="container">     
+      <p style="padding-top: 10px;">This is what you need to do:</p>
+      <div class="table-responsive">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Steps</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Choose a technical topic</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Decide a blog title</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Write first few paragraphs comprising of at least 100 words</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Email your draft to <a href="mailto:winjamods@nullcon.net">winjamods@nullcon.net</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p>Selected participants will get a chance to have a one-on-one interaction with their mentor for 20 minutes.
+        Your mentor would be someone with ample industry experience.</p>
+        <p>Wait no more! Participate today.</p>
     </div>
-    <!-- Footer -->
+    
+    <footer class="w3-container w3-padding-64 w3-center w3-opacity">
+      <div class="w3-xlarge w3-padding-32">
+        <div class="w3-xlarge w3-padding-32"></div>
+        <a href="https://www.facebook.com/WinjaCTF/" target="_blank"><i
+            class="fa fa-facebook-official w3-hover-opacity"></i></a>
+        <!-- <a href=""></a><i class="fa fa-instagram w3-hover-opacity"></i></a>
+        <a href=""><i class="fa fa-snapchat w3-hover-opacity"></i></a>
+        <a href=""><i class="fa fa-pinterest-p w3-hover-opacity"></i></a> -->
+        <a href="https://twitter.com/winja_ctf?lang=en" target="_blank"><i
+            class="fa fa-twitter w3-hover-opacity"></i></a>
+        <a href="https://in.linkedin.com/public-profile/in/winja-community-56b7821b4" target="_blank"><i
+            class="fa fa-linkedin w3-hover-opacity"></i></a>
+      </div>
+      <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+    </footer>
+  </div>
+
+  <!-- Footer -->
   <footer class="w3-container w3-padding-64 w3-center w3-opacity">
     <div class="w3-xlarge w3-padding-32">
       <div class="w3-xlarge w3-padding-32"></div>
@@ -72,7 +127,6 @@
     </div>
     <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
   </footer>
-  </div>
 </body>
 
 </html>
