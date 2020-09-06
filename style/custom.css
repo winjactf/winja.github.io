@@ -1,17 +1,22 @@
 body,
-h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: "Lato", sans-serif
+  /* font-family: 'Open Sans', sans-serif; */
+  font-family: 'Montserrat', sans-serif;
 }
 
 .w3-bar,
-h1,
 button {
-  font-family: "Montserrat", sans-serif
+  /* font-family: 'Open Sans', sans-serif; */
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  /* font-family: 'Fredericka the Great', cursive; */
+  font-family: 'Acme', sans-serif;
 }
 
 .fa-anchor,
@@ -37,3 +42,4 @@ button {
   margin-left: auto;
   margin-right: auto; */
 }
+
